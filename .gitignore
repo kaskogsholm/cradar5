@@ -31,4 +31,6 @@
 *.out
 *.app
 
+# clangd cache?
 
+.cache/
