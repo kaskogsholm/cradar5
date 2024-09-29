@@ -7,7 +7,7 @@ This project is entirely new and currently has no functionality. If you'd like t
 
 First install meson: https://mesonbuild.com/Getting-meson.html 
 
-The meson build system uses out-of-tree builds so run these commands from the root directory compile the project.
+Then run these commands from the root directory compile the project.
 
 ```
 meson setup build && cd build

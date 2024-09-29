@@ -3,11 +3,11 @@ name: CI Meson
 on:
   push:
     paths:
-      - "**.c"
+      - "**.cpp"
       - "**.h"
   pull_request:
     paths:
-      - "**.c"
+      - "**.cpp"
       - "**.h"
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
       - name: Configure Project
         run: meson setup builddir/
         env:
-          CC: gcc
+          CPP: clang++
       - name: Run Tests
         run: meson test -C builddir/ -v
       - name: Upload Test Log
