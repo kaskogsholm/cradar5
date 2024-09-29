@@ -29,7 +29,7 @@ All these arguments are documented in radar5.f, although some familiarity with t
 The initial design of cradar5's API will encode this mental model of the problem with the following classes, rendered in rough pseudo-code. 
 
 
-### DifferentialSystem
+### DelayDifferentialSystem
 
 An instance of this class will be provided by code calling cradar5, or cradar5 will construct such an instance before proceeding with the integration. It encapsulates all the information which is specific to a given DDE.
 
