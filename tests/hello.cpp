@@ -1,9 +1,12 @@
+// This file tests whether Eigen is compiling correctly.
+// Pretty simple.
 #include <Eigen/Dense>
 #include <iostream>
 
 using Eigen::MatrixXd;
 
 int main() {
+
   MatrixXd m(2, 2);
   m(0, 0) = 3;
   m(1, 0) = 8.5;
