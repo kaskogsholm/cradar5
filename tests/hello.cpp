@@ -10,4 +10,5 @@ int main() {
   m(0, 1) = -1;
   m(1, 1) = m(1, 0) + m(0, 1);
   std::cout << m << std::endl;
+  return 0;
 }
